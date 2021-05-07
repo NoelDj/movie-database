@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="css/sub.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="logo"><a href="index.html" class="logo-link"><img src="logo.png" alt="" height="50px"></a></div>
+
+            <div class="links">
+                <a href="?watch=upcoming">Upcoming</a>
+                <a href="?watch=popular">Popular</a>
+                <a href="?watch=classics">Classics</a>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+       <div class="results">
+        <h1></h1>
+        <form action="" id=search-movies>
+
+            <input type="text" class="textbox" id="search-box" placeholder="Search for a movie">
+
+        </form>
+        </div>
+        <template>
+            <article>
+                <img src="no-movie.png" alt="" id="poster">
+                <div class="card-text">
+                    <a href="movie.html?id=" class="movie-link"><span class="title">You are watching</span><span class="rating">5.5</span></a>
+                </div>
+            </article>
+        </template>
+    </main>
+
+    <footer>
+        <center>Watch Movies - 2020</center>
+    </footer>
+
+    <script src="js/search.js"></script>
+
+</body>
+
+</html>
